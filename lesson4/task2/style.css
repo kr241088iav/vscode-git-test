@@ -1,11 +1,11 @@
-.content {
-    font-size: 24px;
+body {
+    font-size: 22px;
 }
 
-.paragraf {
+p {
     color: green;
 }
 
-.properties-list {
+ul {
     color: orange;
 }

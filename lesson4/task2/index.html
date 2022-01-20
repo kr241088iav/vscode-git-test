@@ -1,37 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
-    <title>Класс</title>
-
+    <title>Базовая страничка</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <header class="start">
+        <h1 class="zagolovok">Главный заголовок на странице</h1>
+    </header>
     <main class="content">
-        <p class="paragraf">Изученные CSS свойства</p>
-        <ul>
-            <li class="properties-list">
-                width - ширина блока, не применяется для инлайновых элементов
-            </li>
-            <li class="properties-list">
-                height - высота блока, не применяется для инлайновых элементов
-            </li>
-            <li class="properties-list">
-                display - определяет, как элемент должен быть показан в документе
-            </li>
-            <li class="properties-list">color - задает цвет текста</li>
-            <li class="properties-list">background-color - задает цвет фона</li>
-            <li class="properties-list">font-size - задает размер шрифта</li>
-            <li class="properties-list">
-                margin - задает наружные отступы для блока
-            </li>
-        </ul>
-        <p class="paragraf">
-            Каждый браузер имеет стили по умолчанию. Хорошая практика эти стили обнулять или нормализовать. Это позволит добиться одиннакового отображения страницы во всех браузерах
+        <p>
+            Семантическая верстка позволяет поисковым система лучшем понять контент страницы
         </p>
     </main>
+    <footer class="footer">
+        Не забываем сбрасывать стили браузера по умолчанию
+    </footer>
 </body>
 
 </html>
