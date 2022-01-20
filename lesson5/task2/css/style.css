@@ -1,16 +1,19 @@
-[data-description="anchors"] {
-    background-color: grey;
-}
-
-[data-description] {
-    font-size: 24px;
-}
-
-[href],
-[target] {
-    color: green;
-}
-
-[type="text"] {
-    background-color: orange;
-}
+ [data-description='anchors'] {
+     background-color: grey;
+ }
+ 
+ [data-description] {
+     font-size: 24px;
+ }
+ 
+ [type='text'] {
+     background-color: orange;
+ }
+ 
+ [href] {
+     color: blue;
+ }
+ 
+ [target] {
+     color: green;
+ }
