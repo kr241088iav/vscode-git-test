@@ -1,11 +1,13 @@
-body {
-    font-size: 22px;
-}
-
-p {
-    color: green;
-}
-
-ul {
-    color: orange;
-}
+ <style>.middle {
+     font-size: 22px;
+ }
+ 
+ .green {
+     color: green;
+ }
+ 
+ .orange {
+     color: orange;
+ }
+ 
+ </style>
