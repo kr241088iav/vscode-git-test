@@ -14,7 +14,7 @@ span[lang|="en"] {
     font-size: 28px;
 }
 
-ul [data-description~="even"] {
+ul [data-description*="even"] {
     font-size: 24px;
 }
 
