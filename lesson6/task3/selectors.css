@@ -10,10 +10,14 @@ a[href^="http"] {
     color: green;
 }
 
-[lang|="en"] {
+span [lang|="en"] {
     font-size: 28px;
 }
 
 ul [data-description~="even"] {
     font-size: 24px;
+}
+
+ul [data-description~="even"] {
+    background-color: gray;
 }
