@@ -10,7 +10,7 @@ a[href^="http"] {
     color: green;
 }
 
-span [lang|="en"] {
+span[lang|="en"] {
     font-size: 28px;
 }
 
