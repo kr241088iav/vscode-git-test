@@ -1,4 +1,13 @@
-.already-learned>ol li {
+.already-learned ol {
     background-color: green;
     color: white;
+}
+
+.to-be-learned ol {
+    background-color: orange;
+    color: green;
+}
+
+.already-learned code {
+    background-color: orange;
 }
