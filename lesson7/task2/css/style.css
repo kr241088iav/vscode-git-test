@@ -16,6 +16,6 @@ li:nth-child(odd) {
     margin-left: 16px;
 }
 
-div:nth-child(even) {
+div>p:nth-child(even) {
     background-color: gray;
 }
