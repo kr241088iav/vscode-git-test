@@ -22,7 +22,7 @@
             color: blue;
         }
         
-        p {
+        div p {
             background-color: yellow;
         }
         
@@ -30,8 +30,8 @@
             border: 2px solid red;
         }
         
-        div .hello {
-            background-color: white;
+        .hello {
+            background: white !important;
         }
         
         #special {
@@ -40,10 +40,6 @@
         
         div p {
             font-size: 25px;
-        }
-        
-        div:nth-child(3)>p {
-            background-color: yellow;
         }
         
         input[type='text'] {
@@ -71,7 +67,7 @@
     <p>PARAGRAPH NOT INSIDE A DIV</p>
 
     <div>
-        <p class="hello">I am a paragraph with a class</p>
+        <p class="hello" #hello>I am a paragraph with a class</p>
         <p id="special">I am a paragraph with an ID</p>
 
         <h2>I am an awesome h2</h2>
