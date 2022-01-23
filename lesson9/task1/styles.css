@@ -52,9 +52,8 @@ div {
 }
 
 .absolute-parent {
-    position: absolute;
     bottom: 20px;
-    left: 50px;
+    right: 50px;
 }
 
 .fixed-parent {
