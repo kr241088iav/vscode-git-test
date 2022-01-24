@@ -5,6 +5,8 @@
     .header h1 {
         display: flex;
         justify-content: center;
+        flex-shrink: grow;
+        flex-grow: 1;
     }
     
     .article {
@@ -15,5 +17,5 @@
     }
     
     main {
-        dislay-flex: wrap;
+        display: flex;
     }
