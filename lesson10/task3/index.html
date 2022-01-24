@@ -22,6 +22,21 @@
         .footer {
             height: 40px;
             background-color: green;
+            display: flex;
+        }
+        
+        .navigation {
+            margin: 0;
+            display: flex;
+            list-style: none;
+        }
+        
+        .navigation__item {
+            margin-left: 16px;
+        }
+        
+        .footer_text {
+            margin: auto;
         }
         
         .page {
@@ -34,16 +49,45 @@
             flex-grow: 1;
             display: flex;
         }
+        
+        .dashboard {
+            display: flex;
+            flex-grow: 1;
+            background-color: pink;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .news {
+            width: 200px;
+            background-color: gray;
+        }
     </style>
 </head>
 
 <body>
     <div class="page">
-        <header class="header"></header>
+        <header class="header">
+            <ul class="navigation">
+                <li class="navigation__item">About</li>
+                <li class="navigation__item">Products</li>
+                <li class="navigation__item">Contacts</li>
+            </ul>
+        </header>
         <main class="content">
-            <aside class="news"></aside>
+            <section class="dashboard">
+                <h2>I can use Flexbox!!!</h2>
+            </section>
+            <aside class="news">
+                <h2>News</h2>
+                <ul>
+                    <li class="aside__item">News 1</li>
+                    <li class="aside__item">News 2</li>
+                    <li class="aside__item">News 3</li>
+                </ul>
+            </aside>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer"><span class="footer_text"> Footer </span></footer>
     </div>
 </body>
 
