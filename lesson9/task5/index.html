@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        .header {
+            background-color: darkturquoise;
+        }
+        
+        .navigation .nav-list {
+            line-height: 40px;
+        }
+        
+        .content {
+            background-color: beige;
+            height: 5000px;
+            position: relative;
+        }
+        
+        .head {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: absolute;
+            top: calc(50%-100px);
+        }
+        
+        .ear_left {
+            width: 40px;
+            height: 60px;
+            background-color: brown;
+            /* position: absolute;*/
+        }
+        
+        .ear_righ {
+            width: 40px;
+            height: 60px;
+            background-color: brown;
+            /*position: absolute;
+            right: 40px;
+            top: 80px;*/
+        }
+        
+        .eye_left {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: grey;
+            /* position: absolute;
+            right: 40px;
+            top: 80px;*/
+        }
+        
+        .eye_right {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: grey;
+            /*position: absolute;
+            left: 40px;
+            top: 80px;*/
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Products</li>
+                <li class="nav-item">Contacts</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="head">
+            <div class="ear ear_right"></div>
+            <div class="ear ear_left"></div>
+            <div class="eye eye_right"></div>
+            <div class="eye eye_left"></div>
+        </div>
+    </main>
+</body>
+
+</html>
