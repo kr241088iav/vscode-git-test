@@ -5,8 +5,6 @@
     .header h1 {
         display: flex;
         justify-content: center;
-        flex-shrink: 0;
-        flex-grow: 1;
     }
     
     .article {
@@ -15,8 +13,8 @@
         background-color: bisque;
         min-width: 300px;
         flex-basis: 300px;
-        flex-shrink: 0;
         flex-grow: 1;
+        flex-shrink: 0;
     }
     
     main {
