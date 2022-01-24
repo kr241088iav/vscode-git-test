@@ -5,14 +5,27 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
         .header {
             background-color: darkturquoise;
             height: 40px;
         }
         
-        .navigation .nav-list {
+        .navigation {
             line-height: 40px;
+        }
+        
+        .nav-item {
+            float: left;
+            margin-left: 16px;
+            color: white;
+            list-style-type: none;
         }
         
         .content {
@@ -25,8 +38,8 @@
             height: 200px;
             background-color: aquamarine;
             position: absolute;
-            top: calc(50%-100px);
-            left: calc(50%-100px);
+            top: calc(50% - 100px);
+            left: calc(50% - 100px);
         }
         
         .ear_left {
@@ -34,15 +47,17 @@
             height: 60px;
             background-color: brown;
             position: absolute;
+            top: -60px;
+            left: -40px;
         }
         
-        .ear_righ {
+        .ear_right {
             width: 40px;
             height: 60px;
             background-color: brown;
             position: absolute;
-            right: 40px;
-            top: 80px;
+            top: -60px;
+            right: -40px;
         }
         
         .eye_left {
