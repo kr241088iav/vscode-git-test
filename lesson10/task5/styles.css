@@ -5,7 +5,7 @@
     .header h1 {
         display: flex;
         justify-content: center;
-        flex-shrink: 0;
+        flex-shrink: grow;
         flex-grow: 1;
     }
     
