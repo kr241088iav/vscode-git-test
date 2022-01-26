@@ -1,24 +1,25 @@
-    * body {
-        box-sizing: border-box;
-    }
-    
-    .header h1 {
-        display: flex;
-        justify-content: center;
-        flex-shrink: grow;
-        flex-grow: 1;
-    }
-    
-    .article {
-        margin: 8px;
-        padding: 16px;
-        background-color: bisque;
-        flex-basis: 300px;
-        flex-grow: 1;
-        flex-shrink: 0;
-    }
-    
-    .articles-list {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  * body {
+      box-sizing: border-box;
+  }
+  
+  .header h1 {
+      display: flex;
+      justify-content: center;
+      flex-shrink: grow;
+      flex-grow: 1;
+  }
+  
+  .article {
+      margin: 8px;
+      padding: 16px;
+      background-color: bisque;
+      flex-basis: 300px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  main {
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 0;
+  }
